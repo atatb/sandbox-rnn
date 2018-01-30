@@ -47,6 +47,8 @@ You might need to restart a jupyter kernel.
 
 ## Use Jupyter
 
+### Jupyter Notebook
+
 #### Install
 
 ```
@@ -54,10 +56,24 @@ You might need to restart a jupyter kernel.
 (tensorflow)$ deactivate && source tflearn_rnn/bin/activate
 ```
 
-#### Run Jupyter
+#### Run
 
 ```
 (tensorflow)$ jupyter notebook
+```
+
+### Jupyter Lab
+
+#### Install
+
+```
+(tensorflow)$ pip3 install jupyterlab
+```
+
+#### Run
+
+```
+(tensorflow)$ jupyter lab
 ```
 
 ## Use TensorBoard
