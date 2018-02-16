@@ -125,6 +125,17 @@ AttributeError: module 'site' has no attribute 'getsitepackages'
 
 ## Note
 
-* [Installing TensorFlow on macOS](https://www.tensorflow.org/install/install_mac)
+### hdf5 Error
 
-(pip install h5py)
+> hdf5 is not supported on this machine (please install/reinstall h5py for optimal experience)  
+
+```
+pip install h5py
+```
+### Scipy Error
+
+> Scipy not supported!
+
+```
+pip install scipy
+```
